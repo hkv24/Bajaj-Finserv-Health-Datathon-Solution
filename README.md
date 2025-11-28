@@ -69,6 +69,18 @@ I built a **multi-stage extraction pipeline** that processes documents through P
 
 ## 🔌 API Reference
 
+### Health Check: `GET /health`
+
+Verify if the API is running.
+
+**Response:**
+```json
+{
+  "status": "ok",
+  "message": "Bill Extraction API is running"
+}
+```
+
 ### Endpoint: `POST /extract-bill-data`
 
 Submit a document URL for processing. The API handles downloading, conversion, extraction, and aggregation automatically.
