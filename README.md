@@ -190,15 +190,6 @@ The application is fully containerized. To run it using Docker:
 - Calculates total item count
 - Returns structured JSON
 
-## 📊 Testing Results
-
-| Sample | Pages | Items | Status |
-|--------|-------|-------|--------|
-| train_sample_1.pdf | 2 | 30 | ✅ |
-| train_sample_3.pdf | 1 | 2 | ✅ |
-| train_sample_10.pdf | 3 | 17 | ✅ |
-| train_sample_11.pdf | 1 | 4 | ✅ |
-
 ---
 
 **Author**: Harsh Kumar Verma
