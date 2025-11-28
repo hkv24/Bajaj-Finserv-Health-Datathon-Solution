@@ -1,0 +1,31 @@
+{
+  "name": "bill-extraction-api",
+  "version": "1.0.0",
+  "description": "API for extracting line item details from bills/invoices using LLM",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "bill-extraction",
+    "invoice",
+    "llm",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.20.1",
+    "pdf2pic": "^3.1.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
