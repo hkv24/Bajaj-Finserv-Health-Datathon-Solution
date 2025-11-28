@@ -143,8 +143,8 @@ sudo apt-get install graphicsmagick ghostscript
 
 1.  **Clone the repository**
     ```bash
-    git clone <your-repo-url>
-    cd bill-extraction-api
+    git clone git@github.com:hkv24/Bajaj-Finserv-Health-Datathon-Solution.git
+    cd Bajaj-Finserv-Health-Datathon-Solution
     ```
 
 2.  **Install dependencies**
@@ -161,7 +161,7 @@ sudo apt-get install graphicsmagick ghostscript
 
 4.  **Start the Server**
     ```bash
-    npm run dev
+    npm start
     ```
 
 ## 🐳 Docker Deployment
